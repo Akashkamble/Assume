@@ -26,4 +26,4 @@ jobs:
 
       - name: Static Analysis
         continue-on-error: false
-        run: ./gradlew spotlessCheck --stacktrace
+        run: ./gradlew spotlessCheck
